@@ -1,0 +1,12 @@
+footer h5.d-inline{
+    border-bottom-width: 3px!important;
+}
+
+footer a.nav-link{
+    transition: all 0.5s ease;
+}
+
+footer a.nav-link:hover{
+    padding-right: 0.75rem!important;
+    color: #ffc412!important;
+}

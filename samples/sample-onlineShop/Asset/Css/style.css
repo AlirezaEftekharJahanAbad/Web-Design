@@ -1,0 +1,38 @@
+@import url("./_top-nav.css");
+@import url("./_slider.css");
+@import url("./_shipping.css");
+@import url("./_ads.css");
+@import url("./_category.css");
+@import url("./_special-offers.css");
+@import url("./_product-slider.css");
+@import url("./_footer.css");
+@import url("./_product.css");
+
+@font-face {
+    font-family: Sahel;
+    src: url("../Font/Sahel.eot") format("eot"),
+    url("../Font/Sahel.woff") format("woff"),
+    url("../Font/Sahel.woff2") format("woff2");
+}
+@font-face {
+    font-family: Sahel-Bold;
+    src: url("../Font/Sahel-Bold.eot") format("eot"),
+    url("../Font/Sahel-Bold.woff") format("woff"),
+    url("../Font/Sahel-Bold.woff2") format("woff2");
+}
+
+*{
+    font-family: Sahel;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.lh-base{
+    line-height: 1.6;
+}
+
+::placeholder{
+    font-size: 14px;
+}

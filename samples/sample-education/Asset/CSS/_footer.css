@@ -1,0 +1,17 @@
+footer{
+    height: 100px;
+    overflow: hidden;
+}
+
+footer img{
+    bottom: 0;
+    height: 200px;
+}
+
+footer div{
+    bottom: -75px;
+}
+
+footer p a{
+    transition: all 0.3s;
+}

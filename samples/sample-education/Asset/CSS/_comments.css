@@ -1,0 +1,14 @@
+div.comments div.card-body >div{
+    border-top: 1.5px dashed #ccc;
+}
+
+div.comments div.card-body >div img{
+    width: 81px;
+    height: 81px;
+    border: 5px solid #efefef;
+    border-radius: 50%;
+}
+
+div.comments div.owl-carousel div.card a:hover {
+    color: #EC460A !important;
+}

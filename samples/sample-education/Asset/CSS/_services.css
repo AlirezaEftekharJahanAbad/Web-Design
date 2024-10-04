@@ -1,0 +1,13 @@
+div.services div.banners>div:first-child>div {
+    background-image: url("../IMG/banner-01.png");
+    background-size: cover;
+}
+
+div.services div.banners>div:last-child>div {
+    background-image: url("../IMG/banner-02.png");
+    background-size: cover;
+}
+
+div.services div.achievements a {
+    box-shadow: 2px 4px 15px 0px rgba(51, 105, 158, 0.16);
+}

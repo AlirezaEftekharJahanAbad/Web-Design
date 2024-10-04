@@ -1,0 +1,67 @@
+.special-offers .nav-tabs .nav-link.active{
+    color: #fff;
+    background-color: #ffc412;
+}
+
+.special-offers-img{
+    width: 250px;
+    height: auto;
+}
+
+
+.countdown span.badge-dark{
+    margin: 5px;
+    vertical-align: -2px;
+    position: relative;
+}
+
+.countdown span.day::after{
+    content: "روز";
+    position: absolute;
+    top: 25px;
+    color: black;
+    right: 50%;
+    transform: translate(50%);
+
+}
+.countdown span.hours::after{
+    content: "ساعت";
+    position: absolute;
+    top: 25px;
+    color: black;
+    right: 50%;
+    transform: translate(50%);
+
+}
+.countdown span.minutes::after{
+    content: "دقیقه";
+    position: absolute;
+    top: 25px;
+    color: black;
+    right: 50%;
+    transform: translate(50%);
+
+}
+.countdown span.seconds::after{
+    content: "ثانیه";
+    position: absolute;
+    top: 25px;
+    color: black;
+    right: 50%;
+    transform: translate(50%);
+
+}
+
+.offer-images{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.offer-images img{
+    transition: 0.5s ease;
+}
+
+.offer-images:hover img{
+    transform: translateY(-250px);
+}

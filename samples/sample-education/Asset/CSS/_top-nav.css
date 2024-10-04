@@ -1,0 +1,17 @@
+nav.top-nav{
+    top: 0;
+    z-index: 99;
+    transition: all 1s ease;
+}
+
+nav.top-nav.deactive{
+    height: 0;
+}
+
+nav.top-nav a.cart{
+    background-color: #ccc;
+}
+
+nav.top-nav i.fa-user{
+    vertical-align: -2px;
+}

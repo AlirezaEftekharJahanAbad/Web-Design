@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه - صفحه محصول</title>
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css"
+        integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Asset/Css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Asset/Css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./Asset/Css/style.css">
+    <script src="https://kit.fontawesome.com/077ff6f02c.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light">
+    <!-- start top nav -->
+
+    <div class="container-fluid bg-top-nav">
+        <div class="row">
+            <div class="container font-size-sm top-nav-top">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-md-4 d-none d-md-block">
+                        <p class="text-white m-0">ارسال رایگان</p>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <ul class="nav custom-top-nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link text-white border-right" href="#">آدرس فروشگاه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white border-right" href="#">پیگیری سفارش</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white border-right" href="#">تلفن : 09927866650</a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link text-white border-right" href="#">ضمانت کیفیت محصولات</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container top-nav-middle">
+                <div class="row my-4">
+                    <div class="col-sm-12 col-md-9">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-secondary dropdown-toggle font-size-sm" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">دسته‌بندی‌ها</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">موبایل</a>
+                                    <a class="dropdown-item" href="#">قطعات کامپیوتر</a>
+                                    <a class="dropdown-item" href="#">پوشاک</a>
+                                    <a class="dropdown-item" href="#">لوازم خانگی</a>
+                                </div>
+                            </div>
+                            <input type="text" placeholder="جستجو بین بیش از هزاران کالا ..." class="form-control"
+                                aria-label="Text input with dropdown button">
+                            <div class="input-group-append">
+                                <button class="btn btn-success font-size-sm" type="button"
+                                    id="button-addon2">جستجو</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 mt-3 mt-md-0 col-md-3 text-center">
+                        <div class="dropdown">
+                            <button class="btn bg-transparent text-white font-size dropdown-toggle" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                سبد خرید
+                                <i class="fa-solid fa-cart-plus font-size-sm ml-1 align-middle" aria-hidden="true"></i>
+                            </button>
+                            <div class="dropdown-menu w-250px py-0" aria-labelledby="dropdownMenuButton">
+
+                                <a class="dropdown-item pl-1" href="#">
+                                    <div class="row no-gutters justify-content-between align-items-center">
+                                        <div class="col-3">
+                                            <img class="img-thumbnail p-1" src="./Asset/Img/chair.jpg" alt="">
+                                        </div>
+                                        <div class="col-8">
+                                            <ul class="p-2 m-0 list-unstyled font-size-xs">
+                                                <li>صندلی چرخدار</li>
+                                                <li>قیمت : 500000 تومان</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-1">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item pl-1" href="#">
+                                    <div class="row no-gutters justify-content-between align-items-center">
+                                        <div class="col-3">
+                                            <img class="img-thumbnail p-1" src="./Asset/Img/iphonex.jpg" alt="">
+                                        </div>
+                                        <div class="col-8">
+                                            <ul class="p-2 m-0 list-unstyled font-size-xs">
+                                                <li>گوشی موبایل اپل</li>
+                                                <li>آیفون ایکس</li>
+                                                <li>قیمت : 50000000 تومان</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-1">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-divider"></div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container position-relative top-nav-bottom">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-dark position-static w-100">
+                        <a class="navbar-brand" href="#">فروشگاه</a>
+                        <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse position-static" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-3 font-size-sm position-static align-items-center w-100">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-white" href="#">خانه </a>
+                                </li>
+                                <li class="nav-item dropdown position-static">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        لوازم خانگی
+                                    </a>
+                                    <div class="dropdown-menu w-100 right-0 border-0 shadow"
+                                        aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-4">
+                                                <ul class="nav flex-column pl-3">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> ماشین
+                                                            لباسشویی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> یخچال
+                                                            و فریزر</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> اجاق
+                                                            گاز</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> لوازم
+                                                            صوتی و تصویری</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> ماشین
+                                                            ظرفشویی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i>
+                                                            مبلمان</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> فرش و
+                                                            قالیچه</a>
+                                                    </li>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-4">
+                                                <ul class="nav flex-column pl-3">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> ماشین
+                                                            لباسشویی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> یخچال
+                                                            و فریزر</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> اجاق
+                                                            گاز</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> لوازم
+                                                            صوتی و تصویری</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> ماشین
+                                                            ظرفشویی</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i>
+                                                            مبلمان</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link font-size-sm px-1" href="#"><i
+                                                                class="fa-solid fa-angle-left font-size-xs "></i> فرش و
+                                                            قالیچه</a>
+                                                    </li>
+                                            </div>
+                                            <div class="col-4 d-none d-lg-block position-relative">
+                                                <img class="img-fluid position-absolute left-bottom-0 p-3"
+                                                    src="./Asset/Img/Home-Appliance-PNG-Background.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown position-static">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        سوپرمارکت
+                                    </a>
+                                    <div class="dropdown-menu w-100 right-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown position-static">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        لوازم دیجیتال
+                                    </a>
+                                    <div class="dropdown-menu w-100 right-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown position-static">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        لوازم خودرو
+                                    </a>
+                                    <div class="dropdown-menu w-100 right-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">درباره ما</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">تماس با ما</a>
+                                </li>
+                                <a href="#"
+                                    class=" text-warning text-decoration-none d-none d-lg-block mx-2">تخفیفات
+                                    ویژه</a>
+                                <div class=" order-first order-lg-last ml-lg-auto my-2">
+                                    <i class="fa-solid fa-user text-warning font-size-sm"></i>
+                                    <a data-toggle="modal" href="#login"
+                                        class="text-warning text-decoration-none px-2 border-right">ورود</a>
+                                    <a data-toggle="modal" href="#login"
+                                        class="text-warning text-decoration-none px-2">ثبت
+                                        نام</a>
+                                </div>
+                            </ul>
+
+                        </div>
+
+                        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title w-100 text-center font-size-sm" id="exampleModalLabel">
+                                            ورود به سایت</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1" class="font-size-sm">ایمیل</label>
+                                                <input type="email"
+                                                    class="form-control form-control-sm border-top-0 border-right-0 border-left-0 border-bottom"
+                                                    id="exampleInputEmail1" placeholder="ایمیل خود را وارد کنید ..."
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1" class="font-size-sm">رمز عبور</label>
+                                                <input type="password"
+                                                    class="form-control form-control-sm border-top-0 border-right-0 border-left-0"
+                                                    id="exampleInputPassword1"
+                                                    placeholder="رمز عبور خود را وارد کنید ...">
+                                            </div>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label font-size-sm" for="exampleCheck1">مرا به
+                                                    خاطر بسپار</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-success btn-sm">ورود</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-around">
+                                        <a href="#" class="d-block font-size-sm text-decoration-none">رمز عبور خود را
+                                            فرا موش کرده‌اید؟</a>
+                                        <a href="#" class="d-block font-size-sm text-decoration-none">عضویت در سایت</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end top nav -->
+
+    <!-- start product details -->
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-white">
+                        <li class="breadcrumb-item"><a href="#">خانه</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">گوشی موبایل</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-white mt-5">
+        <div class="row">
+            <div class="col-12 col-md-5 border-right">
+                <img class="img-fluid p-3" src="./Asset/Img/product-01.webp" alt="">
+            </div>
+            <div class="col-12 col-md-7 p-4">
+                <h1 class="font-size">گوشی موبایل شیائومی مدل Poco X6 Pro 5G دو سیم کارت ظرفیت 512 گیگابایت و رم 12
+                    گیگابایت</h1>
+                <div class="product-rating text-warning font-size-sm d-flex justify-content-between mt-3 mb-4">
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="text-dark ml-auto">( 5 دیدگاه برای این کالا )</span>
+                </div>
+                <div class="d-flex justify-content-between my-3">
+                    <div>
+                        <span class="badge badge-pill badge-danger">17%</span>
+                        <s class="px-3">10,000,000 تومان</s>
+                        <span>8,300,000 تومان</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-share-alt text-primary px-1"></i>
+                        <i class="fa-regular fa-heart text-danger px-1"></i>
+                        <i class="fa-solid fa-bell text-warning px-1"></i>
+                    </div>
+                </div>
+                <p class="product-details font-size-sm border-bottom pb-4">
+                    گوشی موبایل شیائومی مدل Poco X6 Pro یک گوشی هوشمند قدرتمند از برند محبوب شیائومی است که برای استفاده
+                    روزمره و بازی طراحی شده است. این گوشی با مشخصات فنی قوی و قابلیت‌های متنوع، توانسته است توجه کاربران
+                    را به خود جلب کند. در این مقاله، قصد داریم تا به بررسی جزئیات طراحی، نمایشگر، دوربین، عملکرد سخت
+                    افزاری، باتری و نتیجه نهایی این گوشی بپردازیم.
+                </p>
+                <div class="d-flex font-size-sm my-3">
+                    <div class="flex-fill">
+                        برند : پوکو
+                    </div>
+                    <div class="flex-fill d-flex align-items-center">
+                        <div>دسته بندی : </div>
+                        <div class="badge badge-pill badge-secondary ml-2">گوشی</div>
+                        <div class="badge badge-pill badge-secondary ml-2">موبایل</div>
+                    </div>
+                </div>
+                <p class="font-size-sm">ویژگی‌های محصول :</p>
+                <ul class="list-group list-group-flush font-size-xs font-weight-bold">
+                    <li class="list-group-item">
+                        کیفیت تصویر بالا
+                    </li>
+                    <li class="list-group-item">
+                        وضوح صفحه نمایش
+                    </li>
+                    <li class="list-group-item">
+                        باتری با ظرفیت بالا
+                    </li>
+                    <li class="list-group-item">
+                        سخت افزار قوی
+                    </li>
+                </ul>
+                <div class="add-to cart">
+                    <button type="button" class="btn btn-danger font-size-sm" onclick="">افزودن به سبد خرید <i
+                            class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+            <div class="col-12 border-top pt-3">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-link font-size-sm active" id="nav-home-tab" data-toggle="tab"
+                            href="#nav-introduction" role="tab" aria-controls="nav-home" aria-selected="true">معرفی</a>
+                        <a class="nav-link font-size-sm" id="nav-profile-tab" data-toggle="tab"
+                            href="#nav-investigation" role="tab" aria-controls="nav-profile" aria-selected="false">بررسی
+                            تخصصی</a>
+                        <a class="nav-link font-size-sm" id="nav-contact-tab" data-toggle="tab" href="#nav-particulars"
+                            role="tab" aria-controls="nav-contact" aria-selected="false">مشخصات</a>
+                    </div>
+                </nav>
+                <div class="tab-content font-size-sm mt-3" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-introduction" role="tabpanel"
+                        aria-labelledby="nav-home-tab">
+                        <h5 class="text-muted p-1">معرفی</h5>
+                        گوشی موبایل شیائومی مدل Poco X6 Pro یک گوشی قدرتمند با امکانات پیشرفته است. این گوشی دارای
+                        قابلیت استفاده از دو سیم کارت می‌باشد، که به کاربران امکان مدیریت دو شماره تلفن مختلف را در یک
+                        دستگاه می‌دهد. با این قابلیت، شما می‌توانید به راحتی بین شماره‌ها جابجا شوید و از تمامی امکانات
+                        شبکه استفاده کنید. ظرفیت حافظه داخلی این گوشی بسیار بزرگ است و تا 512 گیگابایت فایل را می‌توانید
+                        روی آن ذخیره کنید. این فضای ذخیره‌سازی وسیع به شما اجازه می‌دهد تا عکس‌ها، ویدئوها، فیلم‌ها و
+                        برنامه ...
+                        <div class="row p-2 my-2">
+                            <div class="col-12 col-md-6">
+                                <div class="row justify-content-center align-items-center no-gutters">
+                                    <div class="col-7">
+                                        <h5 class="text-muted font-size-sm">ارزش خرید نسبت به قیمت</h5>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" style="height: 3px;" dir="ltr">
+                                            <div class="progress-bar" role="progressbar" style="width: 25%;"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <h5 class="text-muted font-size-sm">کیفیت عمومی پخش صدا</h5>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" style="height: 3px;" dir="ltr">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%;"
+                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <h5 class="text-muted font-size-sm">امکانات و قابلیت‌ها</h5>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" style="height: 3px;" dir="ltr">
+                                            <div class="progress-bar" role="progressbar" style="width: 95%;"
+                                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <h5 class="text-muted font-size-sm">کیفیت تصویر</h5>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" style="height: 3px;" dir="ltr">
+                                            <div class="progress-bar" role="progressbar" style="width: 55%;"
+                                                aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <h5 class="text-muted font-size-sm">کیفیت ساخت</h5>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" style="height: 3px;" dir="ltr">
+                                            <div class="progress-bar" role="progressbar" style="width: 43%;"
+                                                aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row p-2 my-4">
+                            <div class="col-12">
+                                <div>
+                                    <ul class="nav flex-column border-left product-description ">
+                                        <li class="nav-item position-relative pl-3">
+                                            <i
+                                                class="fa-regular fa-dot-circle position-absolute description-bullet"></i>
+                                            <h5 class="text-dark font-size mb-3">طراحی و صفحه نمایش</h5>
+                                            <p class="text-muted font-size-xs">
+                                                گوشی Poco X6 Pro با طراحی زیبا و منحصر به
+                                                فرد خود، از دیدگاه ظاهری توجه
+                                                کاربران را به خود جلب می‌کند. بدنه این گوشی از جنس پلاستیک با کیفیت
+                                                ساخته شده است که مقاومت مناسبی در برابر ضربه و خط و خش دارد. ضخامت مناسب
+                                                و وزن سبک این گوشی، آسانی استفاده را برای کاربران فراهم می‌کند. علاوه بر
+                                                این، Poco X6 Pro دارای قاب پشتی شفاف است که زیبایی و جذابیت بیشتری به آن
+                                                می‌بخشد. همچنین، قاب جانبی این گوشی از جنس پلاستیک مقاومی ساخته شده است
+                                                که مقاومت بالایی دارد و احساس لوکسی را به کاربر منتقل می‌کند. به طور
+                                                کلی، طراحی و ساخت این گوشی بسیار مقرون به صرفه و با کیفیت است. گوشی Poco
+                                                X6 Pro به یک نمایشگر 6.67 اینچی با رزولوشن ۱۲۲۰×۲۷۱۲ پیکسل و نسبت تصویر
+                                                20:9 مجهز است. این نمایشگر با تکنولوژی AMOLED و توانایی نمایش رنگ‌های
+                                                زنده و واقعی، تجربه بصری عالی را به کاربران ارائه می‌دهد. همچنین،
+                                                نمایشگر Poco X6 Pro دارای نسبت صفحه نمایش به بدنه ۹۰.۱ درصد است که باعث
+                                                می‌شود صفحه نمایش به طور کامل فضای جلویی گوشی را بپوشاند. همچنین، این
+                                                نمایشگر دارای نرخ به روزرسانی ۱۲۰ هرتز است که باعث می‌شود حرکات
+                                                کاراکترهای مختلف در بازی‌ها و فیلم‌ها به صورت‌ روان‌تر و طبیعی‌تر به
+                                                نمایش گذاشته شود. یک لایه Corning Gorilla Glass 5 نیز از صفحه نمایش در
+                                                برابر خط و خش و ضربه محافظت می‌کند به طور کلی، نمایشگر Poco X6 Pro به
+                                                عنوان یکی از نقاط قوت این گوشی محسوب می‌شود.</p>
+                                            <div>
+                                                <img class="img-fluid" src="./Asset/Img/product-description-01.jpg"
+                                                    alt="">
+                                            </div>
+                                        </li>
+                                        <hr>
+                                        <li class="nav-item position-relative border-left pl-3">
+                                            <i
+                                                class="fa-regular fa-dot-circle position-absolute description-bullet"></i>
+                                            <h5 class="text-dark font-size mb-3">دوربین و سخت افزار</h5>
+                                            <p class="text-muted font-size-xs">
+                                                دوربین Poco X6 Pro با سه لنز پشتی ۶۴
+                                                مگاپیکسل، 8 مگاپیکسل التراواید و 2 مگاپیکسل ماکرو تجهیز شده است. دوربین
+                                                اصلی با رزولوشن بالا و قابلیت ضبط ویدیوهای 4K، تصاویر با جزئیات بالا و
+                                                رنگ‌های زنده‌تری را به کاربران ارائه می‌دهد. همچنین، دوربین التراواید
+                                                برای عکاسی از مناظر طبیعی و دوربین ماکرو برای عکسبرداری از سوژه‌های کوچک
+                                                کاربرد دارند. یک دوربین ۱۶ مگاپیکسلی هم در قسمت جلوی گوشی قرار گرفته است
+                                                که می‌توانید از آن برای ثبت عکس‌های سلفی و برقراری تماس‌های تصویری
+                                                استفاده کنید. در مجموع، دوربین Poco X6 Pro عملکرد خوبی را ارائه می‌دهد و
+                                                به عنوان یک گوشی عالی برای عکاسی محسوب می‌شود. گوشی Poco X6 Pro با
+                                                پردازنده قدرتمند Mediatek Dimensity 8300 Ultra و 12 گیگابایت رم به بازار
+                                                عرضه شده است. این پردازنده قدرتمند با هسته‌های قوی و فرکانس بالا، عملکرد
+                                                بسیار سریع و پرقدرتی را به کاربران ارائه می‌دهد. همچنین، حافظه داخلی 512
+                                                گیگابایتی این گوشی، امکان ذخیره سازی بیشتری را برای کاربر فراهم می‌کند.
+                                                با توجه به مشخصات فنی قوی، Poco X6 Pro به عنوان یکی از بهترین گوشی‌های
+                                                مناسب بازی و عکاسی در بازار موبایل محسوب می‌شود. گوشی Poco X6 Pro دارای
+                                                باتری با ظرفیت ۵۰۰۰ میلی‌آمپر ساعت است. این باتری قدرتمند، زمان استفاده
+                                                طولانی را برای کاربران فراهم می‌کند و می‌توانید با استفاده از آن، بدون
+                                                نیاز به شارژ مجدد، تمام روز از گوشی خودتان استفاده کنید. علاوه بر این،
+                                                این گوشی از شارژ سریع ۶۷ واتی پشتیبانی می‌کند که به کاربران امکان شارژ
+                                                سریع و زمان کمتر برای شارژ باتری را می‌دهد. بلا توجه به این نکات باتری
+                                                Poco X6 Pro کارایی خوبی دارد و به عنوان یکی از نقاط قوت این گوشی محسوب
+                                                می‌شود. </p>
+                                            <div>
+                                                <img class="img-fluid" src="./Asset/Img/product-description-02.jpg"
+                                                    alt="">
+                                            </div>
+                                        </li>
+                                        <hr>
+                                        <li class="nav-item position-relative border-left pl-3">
+                                            <i
+                                                class="fa-regular fa-dot-circle position-absolute description-bullet"></i>
+                                            <h5 class="text-dark font-size mb-3">نتیجه گیری</h5>
+                                            <p class="text-muted font-size-xs">
+                                                گوشی موبایل شیائومی مدل Poco X6 Pro با طراحی زیبا، نمایشگر با کیفیت،
+                                                دوربین عالی، عملکرد قوی سخت افزاری و باتری با ظرفیت بالا، یک گوشی هوشمند
+                                                قدرتمند برای استفاده روزمره و بازی است. با توجه به مشخصات فنی قوی و
+                                                قابلیت‌هایی که دارد، Poco X6 Pro در رده‌ی بهترین گوشی‌های بازار موبایل
+                                                قرار می‌گیرد. با قابلیت‌های بسیاری که این گوشی ارائه می‌دهد، می‌توان گفت
+                                                که مناسب برای هر نوع کاربری است. از علاقمندان به بازی تا عکاسان و
+                                                کاربران روزمره، همگی می‌توانند از قدرت و عملکرد این گوشی لذت ببرند. به
+                                                طور کلی، گوشی موبایل شیائومی مدل Poco X6 Pro یک انتخاب عالی برای هر کسی
+                                                است که به دنبال یک گوشی هوشمند قدرتمند و با کیفیت است. با توجه به
+                                                قابلیت‌های فنی برجسته و قیمت مناسبی که دارد، این گوشی می‌تواند یک انتخاب
+                                                هوشمندانه برای همه باشد. بنابراین، اگر شما نیز به دنبال یک گوشی قدرتمند
+                                                و با عملکرد بالا هستید، Poco X6 Pro می‌تواند بهترین گزینه برای شما باشد.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-investigation" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        گوشی موبایل شیائومی مدل Poco X6 Pro یک گوشی هوشمند قدرتمند از برند محبوب شیائومی است که برای
+                        استفاده روزمره و بازی طراحی شده است. این گوشی با مشخصات فنی قوی و قابلیت‌های متنوع، توانسته است
+                        توجه کاربران را به خود جلب کند. در این مقاله، قصد داریم تا به بررسی جزئیات طراحی، نمایشگر،
+                        دوربین، عملکرد سخت افزاری، باتری و نتیجه نهایی این گوشی بپردازیم.
+                    </div>
+                    <div class="tab-pane fade" id="nav-particulars" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="row">
+                            <div class="col-5 col-md-3">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-0">ابعاد</li>
+                                    <li class="list-group-item border-0">وزن</li>
+                                    <li class="list-group-item border-0">توضیحات سیم کارت</li>
+                                    <li class="list-group-item border-0">تعداد سیم کارت</li>
+                                    <li class="list-group-item border-0">ویژگی‌های کلیدی</li>
+                                </ul>
+                            </div>
+                            <div class="col-7 col-md-9">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">8.3 × 74.3 × 160.5 میلی متر</li>
+                                    <li class="list-group-item">186 گرم</li>
+                                    <li class="list-group-item">سایز نانو</li>
+                                    <li class="list-group-item">دو عدد</li>
+                                    <li class="list-group-item">صفحه‌نمایش باکیفیت / پردازنده قدرتمند برای بازی / دوربین
+                                        اصلی قدرتمند</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end product details -->
+
+
+        <!-- start product slider -->
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <span class="badge badge-pill badge-danger font-size-xl">
+                        پرفروش ترین محصولات
+                    </span>
+                </div>
+                <div class="col-12">
+    
+                    <div class="owl-carousel owl-theme product-slider position-relative">
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-1.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-2.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-3.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-4.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-5.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-6.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-7.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-8.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-9.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="d-block text-decoration-none text-dark">
+                            <div class="card d-flex flex-column align-items-center py-2">
+                                <img src="./Asset/Img/owl-10.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-text d-flex flex-column justify-content-between font-size-xs">
+                                        <div>
+                                            <p>گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="badge badge-danger">17%</span>
+                                            <span>2990000 تومان</span>
+                                        </div>
+                                        <div class="text-right text-muted"><s>3599000 تومان</s></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <!-- end product slider -->
+
+    <!-- start footer section -->
+
+    <footer class="container-fluid bg-white mt-5">
+        <div class="container font-size-sm">
+            <div class="row py-4">
+                <div class="col-12 col-md-3 mb-2 d-flex flex-column justify-content-center">
+                    <h6 class="font-size-lg mb-3">عضویت در خبرنامه</h6>
+                    <p>با عضویت در خبرنامه <span class="text-danger">30% تخفیف</span> بگیرید</p>
+                </div>
+                <hr class="w-100 d-block d-md-none mt-0 mb-3">
+                <div class="col-12 col-md-4 mb-2 d-flex align-items-center">
+                    <p class="lh-base">به <strong class="badge badge-success font-size">226000 مشترک ما</strong>
+                        بپیوندید و از تخفیف‌های ویژه هفتگی مخصوص مشترکین خبرنامه بهره‌مند شوید</p>
+                </div>
+                <hr class="w-100 d-block d-md-none mt-0 mb-3">
+                <div class="col-12 col-md-5 mb-2 d-flex align-items-center">
+                    <form action="" class="d-block w-100">
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control" id="inlineFormInputGroup"
+                                placeholder="آدرس ایمیل ...">
+                            <div class="input-group-append">
+                                <div class="btn btn-warning text-white">اشتراک</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3 mb-3">
+                    <h5 class="font-size-sm d-inline border-bottom border-danger rounded pb-1">اطلاعات</h5>
+                    <ul class="nav flex-column font-size-sm mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">درباره ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">نحوه ارسال</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">محصولات جدید</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">محصولات منتخب</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">حساب کاربری</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">سابقه خرید</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3">
+                    <h5 class="font-size-sm d-inline border-bottom border-danger rounded pb-1">خدمات مشتریان</h5>
+                    <ul class="nav flex-column font-size-sm mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">حساب کاربری</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">سبد خرید</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">علاقه‌مندی‌ها</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">کاهش قیمت‌ها</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">سابقه خرید</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">سفارشات بین المللی</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3">
+                    <h5 class="font-size-sm d-inline border-bottom border-danger rounded pb-1">اطلاعات تماس</h5>
+                    <ul class="nav flex-column font-size-sm mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">نقشه سایت</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">نقد و بررسی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">نحوه ارسال</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">محصولات ویژه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">خرید اقساطی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark pl-2" href="#">ویژه کارمندان دولت</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 font-size-sm mb-3">
+                    <h5 class="d-inline border-bottom border-danger rounded pb-1">حساب کاربری</h5>
+                    <div class="d-flex justify-content-start align-items-center pl-2 mt-4">
+                        <i class="fa-solid fa-headset font-size-xl text-warning mr-2"></i>
+                        <div>
+                            <p>پشتیبانی 24 ساعته</p>
+                            <a href="tel:0210000000" class="text-decoration-none text-dark">0210000000</a>
+                        </div>
+                    </div>
+                    <div class="social-icon pl-2 mt-3">
+                        <i class="fa-brands fa-telegram mr-3"></i>
+                        <i class="fa-brands fa-instagram mr-3"></i>
+                        <i class="fa-brands fa-twitter mr-3"></i>
+                        <i class="fa-brands fa-facebook mr-3"></i>
+                        <i class="fa-solid fa-rss mr-3"></i>
+                        <p class="mt-3">تهران - ولیعصر - خیابان ولیعصر - کوچه پامچال - پلاک 12</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-1">
+        <p class="text-center font-size-xs my-1">کلیه حقوق این اثر متعلق است به علیرضا افتخار جهان آباد</p>
+    </footer>
+
+    <!-- end footer section -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.5.3/js/bootstrap.min.js"
+        integrity="sha384-VmD+lKnI0Y4FPvr6hvZRw6xvdt/QZoNHQ4h5k0RL30aGkR9ylHU56BzrE2UoohWK"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var replaceDigits = function () {
+            var map = ["&\#1776;", "&\#1777;", "&\#1778;", "&\#1779;", "&\#1780;", "&\#1781;", "&\#1782;", "&\#1783;", "&\#1784;", "&\#1785;"]
+            document.body.innerHTML = document.body.innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function ($0) { return map[$0] });
+        }
+        window.onload = replaceDigits;
+    </script>
+    <script src="./Asset/Js/owl.carousel.min.js"></script>
+    <script src="./Asset/Js/countdown.js"></script>
+</body>
+
+</html>

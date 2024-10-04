@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروژه شماره یک</title>
+    <script src="https://kit.fontawesome.com/077ff6f02c.js" crossorigin="anonymous"></script>
+    <style>
+
+        @font-face {
+            font-family: Sahel;
+            src: url('./Asset/Font/Sahel.eot') format('eot'),
+            url('./Asset/Font/Sahel.woff') format('woff'),
+            url('./Asset/Font/Sahel.woff2') format('woff2');
+            font-style: normal;
+            font-weight: normal;
+        }
+
+        @font-face {
+            font-family: Sahel-Bold;
+            src: url('./Asset/Font/Sahel-Bold.eot') format('eot'),
+            url('./Asset/Font/Sahel-Bold.woff') format('woff'),
+            url('./Asset/Font/Sahel-Bold.woff2') format('woff2');
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Sahel;
+        }
+
+        .course-title{
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            padding: 100px;
+            font-size: 34px;
+            color: #fff;
+        }
+
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+            background-color: #1d1313;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .wrapper span.menu{
+            position: absolute;
+            z-index: 99;
+            top: 0px;
+            left: 10px;
+            cursor: pointer;
+            color: #fff;
+            font-size: x-large;
+        }
+
+        .wrapper div.title{
+            color: #30c4c9;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper div.overlay{
+            background-color: #ff6b81;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 99%;
+            transition: all 0.5s ease;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrapper div.overlay ul li{
+            text-align: center;
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .wrapper div.overlay ul li a{
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            position: relative;
+        }
+
+        .wrapper div.overlay ul li a::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 5px;
+            background-color: #fff;
+            border-radius: 2px;
+            margin-top: 2px;
+            right: 25vw;
+            position: absolute;
+            transition: all 0.5s linear;
+        }
+
+        .wrapper div.overlay ul li a:hover::after{
+            right: 0;
+        }
+
+        .wrapper div.overlay.animate{
+            animation: menu-show-animation 1s ease forwards;
+        }
+        .wrapper div.overlay:not(.animate){
+            animation: menu-hide-animation 1s ease forwards;
+        }
+
+        @keyframes menu-show-animation {
+            0%{
+                top: 99%;
+                left: 0%;
+                width: 100%;
+            }
+            33%{
+                top: 99%;
+                left: -99%;
+                width: 100%;
+            }
+            66%{
+                top: 0%;
+                left: -99%;
+                width: 100%;
+            }
+            100%{
+                top: 0%;
+                left: 0%;
+                width: 25%;
+            }
+        }
+        @keyframes menu-hide-animation {
+            0%{
+                top: 0%;
+                left: 0%;
+                width: 25%;
+            }
+            33%{
+                top: 0%;
+                left: -99%;
+                width: 100%;
+            }
+            66%{
+                top: 99%;
+                left: -99%;
+                width: 100%;
+            }
+            100%{
+                top: 99%;
+                left: 0%;
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <p class="course-title">پروژه شماره یک</p>
+        <span class="menu"><i class="fa-solid fa-bars"></i></span>
+        <div class="title">
+            <h1>روی دکمه بالا سمت چپ کلیک کنید</h1>
+        </div>
+        <div class="overlay">
+            <ul>
+                <li><a href="#">خانه</a></li>
+                <li><a href="#">دوره‌های آموزشی</a></li>
+                <li><a href="#">تماس با ما</a></li>
+                <li><a href="#">درباره ما</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('span.menu').click(function(){
+                $('div.overlay').toggleClass('animate');
+            });
+        });
+    </script>
+
+</body>
+</html>

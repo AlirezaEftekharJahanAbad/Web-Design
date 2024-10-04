@@ -1,0 +1,72 @@
+.bg-top-nav{
+    background-color: #232f3e;
+}
+
+.font-size-xs{
+    font-size: 12px;
+}
+
+.font-size-sm{
+    font-size: 14px;
+}
+
+.font-size{
+    font-size: 16px;
+}
+
+.font-size-lg{
+    font-size: 18px;
+}
+
+.font-size-xl{
+    font-size: 20px;
+}
+
+.img-xs{
+    width: 64px;
+    height: 64px;
+}
+
+.w-250px{
+    width: 250px;
+}
+
+.w-500px{
+    width: 500px;
+}
+
+.right-0{
+    right: 0;
+}
+
+.left-0{
+    left: 0;
+}
+
+.right-bottom-{
+    right: 0;
+    bottom: 0;
+}
+
+.left-bottom-0{
+    left: 0;
+    bottom: 0;
+}
+
+.top-nav-middle input[type="text"]::placeholder{
+    font-size: 14px;
+}
+
+.top-nav-bottom div.row nav div.collapse ul li.nav-item div.dropdown-menu ul li a i{
+    vertical-align: -1px;
+}
+
+.top-nav-bottom div.row nav div.collapse ul li.nav-item div.dropdown-menu ul li a{
+    color: black!important;
+    transition: 0.5s ease;
+}
+
+.top-nav-bottom div.row nav div.collapse ul li.nav-item div.dropdown-menu ul li a:hover {
+    margin-right: 0.5rem;
+    color: #007bff!important;
+}

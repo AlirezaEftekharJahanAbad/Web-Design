@@ -1,0 +1,7 @@
+@media (min-width:768px) {
+    .ads-img-resize{
+        -ms-flex: 0 0 44%;
+        flex: 0 0 44%;
+        max-width: 44%;
+    }
+}

@@ -1,0 +1,62 @@
+div.articles div.overlay-activator img{
+    filter: brightness(0.6);
+}
+
+div.articles div.overlay-activator >div:first-of-type{
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+div.articles div.overlay-activator:hover >div:first-of-type{
+    opacity: 0.6;
+}
+
+div.articles div.overlay-activator >div:last-of-type>h6::before{
+    content: "";
+    display:inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #c21683;
+    margin-left: 2px;
+}
+
+
+div.articles div.overlay-activator >div:last-of-type{
+    bottom:20px ;
+    right: -20px;
+    box-shadow: 2px 4px 15px 0px rgba(51, 105, 158, 0.16);
+    transition: all 0.5s;
+}
+
+div.articles div.overlay-activator:hover >div:last-of-type{
+    transform: translate(0,-5px);
+}
+
+@media (max-width:992px) {
+    div.articles div.overlay-activator  >div:last-of-type{
+        background-color: transparent!important;
+        color: #000;
+        right: 20px;
+    }
+    div.articles div.overlay-activator  >div:last-of-type>h6{
+        color: #fff;
+    }
+}
+
+div.articles div.overlay-activator span.badge{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 992px) {
+    .col-lg-8-custom {
+        -ms-flex: 0 0 61.666667%;
+        flex: 0 0 61.666667%;
+        max-width: 61.666667%;
+    }
+}
+
+div.articles div:last-child{
+    text-align: left;
+}

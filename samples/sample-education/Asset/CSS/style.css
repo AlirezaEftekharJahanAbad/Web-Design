@@ -1,0 +1,54 @@
+@import url("./_header.css");
+@import url("./_top-nav.css");
+@import url("./_intro.css");
+@import url("./_new-courses.css");
+@import url("./_services.css");
+@import url("./_articles.css");
+@import url("./_comments.css");
+@import url("./_footer.css");
+
+@font-face {
+    font-family: Sahel;
+    src: url("../Font/Sahel.eot") format("eot"),
+    url("../Font/Sahel.woff") format("woff"),
+    url("../Font/Sahel.woff2") format("woff2");
+    src: url("../Font/Sahel-FD.eot") format("eot"),
+    url("../Font/Sahel-FD.woff") format("woff"),
+    url("../Font/Sahel-FD.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: Sahel-Bold;
+    src: url("../Font/Sahel-Bold.eot") format("eot"),
+    url("../Font/Sahel-Bold.woff") format("woff"),
+    url("../Font/Sahel-Bold.woff2") format("woff2");
+}
+
+*:not(.en){
+    font-family: Sahel;
+}
+
+.font-size-xxs{
+    font-size: 6px;
+}
+
+.font-size-xs{
+    font-size: 10px;
+}
+.font-size-sm{
+    font-size: 14px;
+}
+.font-size-regular{
+    font-size: 16px;
+}
+.font-size-lg{
+    font-size: 18px;
+}
+.font-size-xl{
+    font-size: 22px;
+}
+
+.font-size-xxl{
+    font-size: 26px;
+}

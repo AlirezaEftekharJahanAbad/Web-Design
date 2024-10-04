@@ -1,0 +1,25 @@
+.product-slider div.card img{
+    width: 132px;
+    height: 132px;
+}
+
+.product-slider div.card div.card-text:first-child{
+    height: 100px; 
+}
+
+.owl-nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    font-size: 30px;
+}
+
+.owl-nav button{
+    outline: none;
+}
+
+.owl-dot{
+    margin-top: 0.5rem;
+}

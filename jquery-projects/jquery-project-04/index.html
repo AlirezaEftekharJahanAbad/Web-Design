@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروژه شماره چهار</title>
+    <script src="https://kit.fontawesome.com/077ff6f02c.js" crossorigin="anonymous"></script>
+    <style>
+        @font-face {
+            font-family: Sahel;
+            src: url('./Asset/Font/Sahel.eot') format('eot'),
+                url('./Asset/Font/Sahel.woff') format('woff'),
+                url('./Asset/Font/Sahel.woff2') format('woff2');
+            font-style: normal;
+            font-weight: normal;
+        }
+
+        @font-face {
+            font-family: Sahel-Bold;
+            src: url('./Asset/Font/Sahel-Bold.eot') format('eot'),
+                url('./Asset/Font/Sahel-Bold.woff') format('woff'),
+                url('./Asset/Font/Sahel-Bold.woff2') format('woff2');
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Sahel;
+        }
+
+        .course-title {
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            padding: 100px;
+            font-size: 34px;
+            color: #fff;
+        }
+
+        body {
+            background-color: #696969;
+            font-size: 16px;
+            text-align: center;
+            height: 100vh;
+            overflow: hidden;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        ul li{
+            margin: 0 30px;
+            display: inline-block;
+        }
+
+        ul li a{
+            color: #262626;
+            display: inline-block;
+            letter-spacing: 2px;
+            text-decoration: none;
+            transition: all 0.5s;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+            transform: rotate(-30deg) skew(25deg);
+            font-size: 24px;
+        }
+
+        ul li a::before{
+            content: '';
+            background-color: #b1b1b1;
+            position: absolute;
+            width: 20px;
+            height: 100%;
+            top: 10px;
+            left:-20px;
+            transform: skewY(-45deg);
+        }
+        ul li a::after{
+            content: '';
+            background-color: #b1b1b1;
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            top: 100%;
+            left:-10px;
+            transform: skew(-45deg);
+        }
+
+        ul li a:hover{
+            transform: skew(15deg) rotateZ(-30deg) translate(20px,-15px);
+            box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+            color: #fff;
+        }
+
+        ul li:hover:nth-child(1) a{
+            background-color: #3b5998;
+        }
+        ul li:hover:nth-child(1) a::before{
+            background-color: #365492;
+        }
+        ul li:hover:nth-child(1) a::after{
+            background-color: #4a69ad;
+        }
+        ul li:hover:nth-child(2) a{
+            background-color: #00aced;
+        }
+        ul li:hover:nth-child(2) a::before{
+            background-color: #097aa5;
+        }
+        ul li:hover:nth-child(2) a::after{
+            background-color: #53b9e0;
+        }
+        ul li:hover:nth-child(3) a{
+            background-color: #dd4b39;
+        }
+        ul li:hover:nth-child(3) a::before{
+            background-color: #b33a2b;
+        }
+        ul li:hover:nth-child(3) a::after{
+            background-color: #e66a5a;
+        }
+        ul li:hover:nth-child(4) a{
+            background-color: #b4405f;
+        }
+        ul li:hover:nth-child(4) a::before{
+            background-color: #d81c3f;
+        }
+        ul li:hover:nth-child(4) a::after{
+            background-color: #e46880;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p class="course-title">
+        پروژه شماره چهار
+    </p>
+
+    <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Telegram</a></li>
+        <li><a href="#">Google</a></li>
+        <li><a href="#">Instagram</a></li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+
+    </script>
+
+</body>
+
+</html>
